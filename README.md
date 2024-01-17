@@ -19,7 +19,8 @@
 
 
 #
- ## Audit Finding 1: ICE-03 - Centralization Risks in ICEToken.sol:
+ ## ICE-03 
+ ### Audit Finding 1:  Centralization Risks in ICEToken.sol:
 
 ### Description:
 > In the ICEToken contract, the _owner role holds authority over critical functions. If compromised, this _owner account could be exploited to modify configurations and transfer assets, akin to someone having a master key to a vending machine.
@@ -50,7 +51,8 @@ modifier onlyOwner() {
 > The Ice team acknowledged the concern and updated privileged functions. CertiK recommends implementing the suggested methods and periodic reviews of private key security.
 
 # 
- ## Audit Finding 2: ICE-04 - Potential DOS Attack
+ ## ICE-04 
+ ### Audit Finding 2:  Potential DOS Attack
 
 ### Description:
 > The contract triggers _swapBack() on every sell or transfer, making it susceptible to a Denial-of-Service (DOS) attack. A malicious user could disrupt transactions by transferring tokens under specific conditions.
@@ -80,7 +82,9 @@ function _swapBack() internal {
 
 
 #
- ## Audit Finding 3: ICE-14 - Pausing Centralization Risk
+ ## ICE-14 
+ ### Audit Finding 3:  Pausing Centralization Risk
+ 
 ### Description:
 > In the ICEToken contract, the _owner role has the authority to pause/resume token transfer functionality. A compromised _owner's private key could enable hackers to disable or enable transfers.
 
