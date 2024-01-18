@@ -16,6 +16,9 @@
 * [Cypher](#Cypher)
 * [KyberSwap](#KyberSwap)
 * [SturdyFinance](#SturdyFinance)
+* [CoinDeal](#CoinDeal)
+* [LendHub](#LendHub)
+* [YieldRobot](#YieldRobot)
 
 
 
@@ -150,6 +153,136 @@ Think of an online store facing a cyber-attack. Sturdy Finance was like that sto
 
 ## Individual Case Analysis
 > Imagine a detective breaking down each incident like solving a complex case. In-depth analyses cover everything from how the attack happened to what the affected projects did to recover. It's like understanding the details of a crime scene to prevent similar incidents in the future.
+
+#
+## CoinDeal
+### CoinDeal (Jan 4)
+**Overview**:
+> CoinDeal was a blockchain investment platform that turned out to be a scam. The U.S. Securities and Exchange Commission (SEC) charged the culprits for raising over $45 million in a scheme involving false promises of high returns.
+
+**Outcome**:
+
+**Legal Consequences**: 
+> Neil Chandran, the mastermind, was sentenced to six years in prison for defrauding more than 10,000 victims.
+
+**Relatable Example**: 
+> Think of CoinDeal as a fraudulent investment scheme promising huge returns but disappearing with people's hard-earned money, similar to real-world investment scams.
+
+#
+## LendHub
+### LendHub (Jan 13)
+**Overview**:
+> LendHub faced a $6 million loss due to a technical flaw. The team announced an investigation, but communication channels went silent, leaving affected users in the dark.
+
+**Outcome**:
+
+**Communication Breakdown**: Despite promises of internal investigations and compensation, users were left without updates.
+Relatable Example: Imagine lending your money on a platform that suddenly goes quiet, and you can't get any information about your funds or the situation—a bit like an online banking platform going offline without any notice.
+
+#
+## Midas
+### Midas Capital (Jan 15)
+**Overview**:
+> Midas Capital suffered a $650,000 loss due to a vulnerability that affected users on Polygon. The team proposed various actions for compensation.
+
+**Outcome**:
+
+**Asset Migration**: 
+> Exploited assets were moved around and eventually cashed out on Binance.
+Relatable Example: Picture investing in a company only to find out your money is vulnerable due to a technical issue. Despite compensation plans, your funds end up moving through different places, making recovery challenging.
+
+#
+## YieldRobot
+### Yield Robot (Jan 17)
+**Overview**:
+> Yield Robot faced a $2.1 million rug-pull, where the owner manipulated the contract to drain assets.
+
+**Outcome**:
+
+**Deleted Statements**: 
+> The team initially claimed a hack but deleted statements and social media posts after a short period.
+Relatable Example: It's like owning shares in a company, and suddenly the company claims a breach but then deletes all evidence, leaving investors confused and frustrated.
+
+5. Thoreum Finance (Jan 19)
+Overview:
+Thoreum Finance suffered a $580,000 loss due to a bug in their token contract. The team added liquidity and froze exploited tokens for recovery.
+
+Outcome:
+
+Compensation Efforts: The team made efforts to stabilize the token price through added liquidity.
+Relatable Example: Imagine buying a new cryptocurrency only to find out there's a glitch that affects your investment. The team tries to fix it, but there's uncertainty about the recovery.
+
+6. Omm Finance (Jan 21)
+Overview:
+Omm Finance faced a $1.9 million loss due to a vulnerability in their protocol. Compensation was provided through governance decisions.
+
+Outcome:
+
+Blocked Transactions: Some funds were returned, but the recovery process involved blocking transactions.
+Relatable Example: It's like having money in a digital savings account that gets compromised, and although some funds are recovered, the process involves blocking certain transactions.
+
+7. BonqDAO (Feb 2)
+Overview:
+BonqDAO suffered a $120 million loss due to a vulnerability allowing manipulation of token prices.
+
+Outcome:
+
+Rebranding: The exploiter changed accounts, making it challenging to track.
+Relatable Example: Think of a situation where an investment platform changes its name and looks after a major loss, making it hard for investors to trace.
+
+8. Orion Protocol (Feb 2)
+Overview:
+Orion Protocol faced a $3 million loss due to a vulnerability during the customization of swap routes.
+
+Outcome:
+
+No Compensation: The team did not initiate a compensation process, leaving affected users without recovery.
+Relatable Example: It's like using an online trading platform where a flaw allows someone to take your money, and the platform doesn't take responsibility.
+
+9. LianGo Protocol (Feb 7)
+Overview:
+LianGo Protocol faced a $1.6 million loss due to control hijacking, with the exploiter manipulating LP token addresses.
+
+Outcome:
+
+Privacy Measures: Exploited funds were moved through Tornado.Cash for increased privacy.
+Relatable Example: Imagine investing in a startup, and suddenly someone takes control, making it harder to trace the stolen funds.
+
+10. dForce (Feb 10)
+Overview:
+dForce experienced a $3.65 million loss due to a reentrancy vulnerability similar to Midas Capital.
+
+Outcome:
+
+Full Recovery: Exploited funds were fully returned to the protocol, and a bounty was offered to the hacker.
+Relatable Example: It's like using a financial app where a flaw allows someone to manipulate your account, but the company manages to recover your funds.
+
+11. Platypus Finance (Feb 16)
+Overview:
+Platypus Finance suffered an $8.5 million loss due to a logic bug, causing a vulnerability in assessing solvency.
+
+Outcome:
+
+Partial Recovery: BlockSec assisted in recovering $2.4 million, but comments suggested incomplete compensation.
+Relatable Example: Picture having funds in an investment platform where a flaw allows someone to take a significant portion, and although efforts are made to recover, it's not fully successful.
+
+12. Dexible (Feb 17)
+Overview:
+Dexible faced a $2 million loss due to an access control vulnerability, allowing users to specify their own router without proper validation.
+
+Outcome:
+
+Shutdown: The protocol announced its inability to compensate and shut down services.
+Relatable Example: It's like using a financial app that suddenly shuts down because of a security flaw, leaving users without access to their money.
+
+13. Hope Finance (Feb 20)
+Overview:
+Hope Finance experienced a $1.8 million rug-pull through a function in the reward pool, draining USDC.
+
+Outcome:
+
+Protocol Shutdown: The protocol announced no compensation and shut down services after the incident.
+Relatable Example: Imagine investing in a project that abruptly shuts down, leaving you without your invested money and no explanation.
 
 
 
