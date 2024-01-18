@@ -19,6 +19,15 @@
 * [CoinDeal](#CoinDeal)
 * [LendHub](#LendHub)
 * [YieldRobot](#YieldRobot)
+* [Thoreum](#Thoreum)
+* [OmmFinance](#OmmFinance)
+* [BonqDAO](#BonqDAO)
+* [Orion](#Orion)
+* [LianGo](#LianGo)
+* [dForce](#dForce)
+* [Platypus](#Platypus)
+* [Dexible](#Dexible)
+* [HopeFinance](#HopeFinance)
 
 
 
@@ -203,88 +212,135 @@ Relatable Example: Picture investing in a company only to find out your money is
 > The team initially claimed a hack but deleted statements and social media posts after a short period.
 Relatable Example: It's like owning shares in a company, and suddenly the company claims a breach but then deletes all evidence, leaving investors confused and frustrated.
 
-5. Thoreum Finance (Jan 19)
-Overview:
-Thoreum Finance suffered a $580,000 loss due to a bug in their token contract. The team added liquidity and froze exploited tokens for recovery.
+#
+## Thoreum
+### Thoreum Finance (Jan 19)
+**Overview**:
+> Thoreum Finance suffered a $580,000 loss due to a bug in their token contract. The team added liquidity and froze exploited tokens for recovery.
 
-Outcome:
+**Outcome**:
 
-Compensation Efforts: The team made efforts to stabilize the token price through added liquidity.
-Relatable Example: Imagine buying a new cryptocurrency only to find out there's a glitch that affects your investment. The team tries to fix it, but there's uncertainty about the recovery.
+**Compensation Efforts**: 
+> The team made efforts to stabilize the token price through added liquidity.
 
-6. Omm Finance (Jan 21)
-Overview:
-Omm Finance faced a $1.9 million loss due to a vulnerability in their protocol. Compensation was provided through governance decisions.
+**Relatable Example**: 
+> Imagine buying a new cryptocurrency only to find out there's a glitch that affects your investment. The team tries to fix it, but there's uncertainty about the recovery.
 
-Outcome:
+#
+## OmmFinance
+### Omm Finance (Jan 21)
+**Overview**:
+> Omm Finance faced a $1.9 million loss due to a vulnerability in their protocol. Compensation was provided through governance decisions.
 
-Blocked Transactions: Some funds were returned, but the recovery process involved blocking transactions.
-Relatable Example: It's like having money in a digital savings account that gets compromised, and although some funds are recovered, the process involves blocking certain transactions.
+**Outcome**:
 
-7. BonqDAO (Feb 2)
-Overview:
-BonqDAO suffered a $120 million loss due to a vulnerability allowing manipulation of token prices.
+**Blocked Transactions**: 
+> Some funds were returned, but the recovery process involved blocking transactions.
 
-Outcome:
+**Relatable Example**: 
+> It's like having money in a digital savings account that gets compromised, and although some funds are recovered, the process involves blocking certain transactions.
 
-Rebranding: The exploiter changed accounts, making it challenging to track.
-Relatable Example: Think of a situation where an investment platform changes its name and looks after a major loss, making it hard for investors to trace.
+#
+## BonqDAO
+### BonqDAO (Feb 2)
+**Overview**:
+> BonqDAO suffered a $120 million loss due to a vulnerability allowing manipulation of token prices.
 
-8. Orion Protocol (Feb 2)
-Overview:
-Orion Protocol faced a $3 million loss due to a vulnerability during the customization of swap routes.
+**Outcome**:
 
-Outcome:
+**Rebranding**: 
+> The exploiter changed accounts, making it challenging to track.
 
-No Compensation: The team did not initiate a compensation process, leaving affected users without recovery.
-Relatable Example: It's like using an online trading platform where a flaw allows someone to take your money, and the platform doesn't take responsibility.
+**Relatable Example**: 
+> Think of a situation where an investment platform changes its name and looks after a major loss, making it hard for investors to trace.
 
-9. LianGo Protocol (Feb 7)
-Overview:
-LianGo Protocol faced a $1.6 million loss due to control hijacking, with the exploiter manipulating LP token addresses.
+# 
+## Orion
+### Orion Protocol (Feb 2)
+**Overview**:
+> Orion Protocol faced a $3 million loss due to a vulnerability during the customization of swap routes.
 
-Outcome:
+**Outcome**:
 
-Privacy Measures: Exploited funds were moved through Tornado.Cash for increased privacy.
-Relatable Example: Imagine investing in a startup, and suddenly someone takes control, making it harder to trace the stolen funds.
+**No Compensation**: 
+> The team did not initiate a compensation process, leaving affected users without recovery.
 
-10. dForce (Feb 10)
-Overview:
-dForce experienced a $3.65 million loss due to a reentrancy vulnerability similar to Midas Capital.
+**Relatable Example**: 
+> It's like using an online trading platform where a flaw allows someone to take your money, and the platform doesn't take responsibility.
 
-Outcome:
+#
+## LianGo
+### LianGo Protocol (Feb 7)
+**Overview**:
+> LianGo Protocol faced a $1.6 million loss due to control hijacking, with the exploiter manipulating LP token addresses.
 
-Full Recovery: Exploited funds were fully returned to the protocol, and a bounty was offered to the hacker.
-Relatable Example: It's like using a financial app where a flaw allows someone to manipulate your account, but the company manages to recover your funds.
+**Outcome**:
 
-11. Platypus Finance (Feb 16)
-Overview:
-Platypus Finance suffered an $8.5 million loss due to a logic bug, causing a vulnerability in assessing solvency.
+**Privacy Measures**: 
+> Exploited funds were moved through Tornado.Cash for increased privacy.
 
-Outcome:
+**Relatable Example**: 
+> Imagine investing in a startup, and suddenly someone takes control, making it harder to trace the stolen funds.
 
-Partial Recovery: BlockSec assisted in recovering $2.4 million, but comments suggested incomplete compensation.
-Relatable Example: Picture having funds in an investment platform where a flaw allows someone to take a significant portion, and although efforts are made to recover, it's not fully successful.
+#
+## dForce
+### dForce (Feb 10)
+**Overview**:
+> dForce experienced a $3.65 million loss due to a reentrancy vulnerability similar to Midas Capital.
 
-12. Dexible (Feb 17)
-Overview:
-Dexible faced a $2 million loss due to an access control vulnerability, allowing users to specify their own router without proper validation.
+**Outcome**:
 
-Outcome:
+**Full Recovery**: 
+> Exploited funds were fully returned to the protocol, and a bounty was offered to the hacker.
 
-Shutdown: The protocol announced its inability to compensate and shut down services.
-Relatable Example: It's like using a financial app that suddenly shuts down because of a security flaw, leaving users without access to their money.
+**Relatable Example**: 
+> It's like using a financial app where a flaw allows someone to manipulate your account, but the company manages to recover your funds.
 
-13. Hope Finance (Feb 20)
-Overview:
-Hope Finance experienced a $1.8 million rug-pull through a function in the reward pool, draining USDC.
+#
+## Platypus
+### Platypus Finance (Feb 16)
+**Overview**:
+> Platypus Finance suffered an $8.5 million loss due to a logic bug, causing a vulnerability in assessing solvency.
 
-Outcome:
+**Outcome**:
 
-Protocol Shutdown: The protocol announced no compensation and shut down services after the incident.
-Relatable Example: Imagine investing in a project that abruptly shuts down, leaving you without your invested money and no explanation.
+**Partial Recovery**:
+> BlockSec assisted in recovering $2.4 million, but comments suggested incomplete compensation.
+
+**Relatable Example**: 
+> Picture having funds in an investment platform where a flaw allows someone to take a significant portion, and although efforts are made to recover, it's not fully successful.
+
+
+#
+## Dexible
+### Dexible (Feb 17)
+**Overview**:
+> Dexible faced a $2 million loss due to an access control vulnerability, allowing users to specify their own router without proper validation.
+
+**Outcome**:
+
+**Shutdown**: 
+> The protocol announced its inability to compensate and shut down services.
+
+**Relatable Example**:
+> It's like using a financial app that suddenly shuts down because of a security flaw, leaving users without access to their money.
+
+#
+## HopeFinance
+### Hope Finance (Feb 20)
+
+**Overview**:
+> Hope Finance experienced a $1.8 million rug-pull through a function in the reward pool, draining USDC.
+
+**Outcome**:
+
+**Protocol Shutdown**: 
+> The protocol announced no compensation and shut down services after the incident.
+
+**Relatable Example**: 
+> Imagine investing in a project that abruptly shuts down, leaving you without your invested money and no explanation.
 
 
 
-Conclusion:
-Web3 security incidents are like challenges faced by a growing digital city. By understanding these incidents, castle owners (project developers) can strengthen their defenses and create a safer digital landscape for everyone. Just as townspeople share stories about challenges and victories, the Web3 community must collaborate to build a secure and resilient digital future.
+**Conclusion**:
+> Web3 security incidents are like challenges faced by a growing digital city. By understanding these incidents, castle owners (project developers) can strengthen their defenses and create a safer digital landscape for everyone. Just as townspeople share stories about challenges and victories, the Web3 community must collaborate to build a secure and resilient digital future.
