@@ -63,6 +63,11 @@ function floatToBinary(floatNumber, isDouble) {
 
 > The resulting binary string is returned as the output of the function.
 
+<p align="center" width="100%">
+  <img src="https://github.com/EnebeliEmmanuel/MyGuildAuditReports.md/assets/58889001/1c13fcdf-0ebd-486d-9019-dc4fb0546533" alt="Ice"/>
+</p>
+
+
 **Why**: This allows the user to easily obtain the binary representation of a floating-point number.
 
 
