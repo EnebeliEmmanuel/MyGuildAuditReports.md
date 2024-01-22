@@ -11,6 +11,8 @@
 * [A.1](#A.1)
 * [A.2](#A.2)
 * [A.3](#A.3)
+* [A.4](#A.4)
+* [A.5](#A.4)
 
 ## Overview
 
@@ -179,7 +181,30 @@ external function changeOwnership(address payable _newOwner);
 **ALLEVIATION**:
 > By declaring these functions as external, you're signaling that they are designed for external use, providing clarity in the contract's functionality. This optimization contributes to a cleaner and more efficient smart contract.
 
+#
+## A.4
+### INFORMATIONAL ISSUE - FLOATING PRAGMA
+- Category: Informational
+- Severity: Informational
 
+**Understanding Informational Issue - Floating Pragma**:
+> Imagine building a house with specific blueprints. If you use different plans during construction, things might not fit together as intended. Similarly, in the AVX Launchpad contract, the pragma version is like the blueprint. It's recommended to lock it down at a specific version (e.g., ^0.8.6) to ensure consistency and avoid unexpected issues.
+
+**Issue Overview**:
+> The AVX Launchpad contract employs a floating-point pragma (^0.8.6). Think of pragma as the blueprint for building a smart contract. Using a floating pragma means the contract can be compiled with any 0.8.x version. To maintain consistency and prevent potential issues, it's advised to lock down the pragma to a specific version used during testing.
+
+solidity
+```
+// Locking the Pragma
+pragma solidity ^0.8.6;
+```
+
+**Recommendations**:
+> To ensure the contract is deployed consistently and to avoid compatibility problems, it's recommended to lock down the pragma to a specific version, such as ^0.8.6. This ensures that the contract is built using the same rules specified in the chosen version.
+
+**ALLEVIATION**:
+> By locking the pragma, you're ensuring that the contract is constructed using a specific set of rules. This helps maintain consistency and reduces the risk of unexpected issues arising from using different compiler versions.
+ 
 
 
 
