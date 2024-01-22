@@ -3,7 +3,7 @@
 ## Welcome
 
 <p align="center" width="100%">
-  <img src="https://github.com/EnebeliEmmanuel/MyGuildAuditReports.md/assets/58889001/254efe35-b421-43f4-955b-96370a2e54f9" alt="Ice"/>
+  <img src="https://github.com/EnebeliEmmanuel/MyGuildAuditReports.md/assets/58889001/4b95ee36-93e8-4922-9693-6572f8c0dcab" alt="Ice"/>
 </p>
 
 > ## Table of contents
@@ -77,6 +77,12 @@ console.log(`Encrypted message: ${encryptedMessage}`);
 const decryptedMessage = decrypt(encryptedMessage, shift);
 console.log(`Decrypted message: ${decryptedMessage}`);
 ```
+
+<p align="center" width="100%">
+  <img src="https://github.com/EnebeliEmmanuel/MyGuildAuditReports.md/assets/58889001/686a95df-25be-4b63-a4b3-6282d116aebf" alt="Ice"/>
+</p>
+ht
+
 
 ## Summary
 > Our Julius Caesar Cipher Encoder/Decoder empowers you to send and receive secret messages, just like the legendary Julius Caesar. The encrypt function transforms a message into a secret code, and the decrypt function decodes it. It's a journey into the ancient art of cryptography, where a simple shift can create a secret language between friends.
