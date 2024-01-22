@@ -58,7 +58,7 @@ AVX launchpad $AVX is developed to launch the best new projects on the Avalanche
 > So, in essence, an audit's severity is like ensuring your roller coaster isn't just thrilling but also a secure and smooth ride for everyone. Now, let's dive into the details and see how we can make this DeFi amusement park even better with the  AVX Token Audit.
 
 
-# A.1
+# A-1
 ## MISSING ZERO ADDRESS VALIDATION - LOW SEVERITY
 - Category: Low Severity
 - Severity: Low
