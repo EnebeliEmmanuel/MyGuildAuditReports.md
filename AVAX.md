@@ -99,7 +99,7 @@ By implementing zero address validation, the AVX Launchpad contract can strength
 
 
 #
-## A.2
+## A-2
 ### ERC20 APPROVE() RACE-CONDITION - MEDIUM SEVERITY
 - Category: Medium Severity
 - Severity: Medium
@@ -126,7 +126,7 @@ function modifyAllowance(address spender, uint256 addedValue, uint256 subtracted
 > By adopting OpenZeppelin's recommended practices, the AVX Launchpad contract can significantly reduce the risk of front-running in allowance modifications. This change ensures that users' allowances are handled securely, providing a safer experience for token holders
 
 #
-## A.3
+## A-3
 ### INFORMATIONAL ISSUES - MISSING EVENTS FOR SIGNIFICANT TRANSACTIONS
 - Category: Informational
 - Severity: Informational
@@ -158,7 +158,7 @@ function changeOwnership(address payable _newOwner) public onlyOwner {
 > Implementing event emissions for significant transactions enhances transparency in the AVX Launchpad contract. It's like leaving a clear trail for external systems and users to follow, fostering trust and providing a complete picture of important changes within the contract.
 
 #
-## A.4
+## A-4
 ### INFORMATIONAL ISSUES - UNUSED PUBLIC FUNCTIONS
 - Category: Informational
 - Severity: Informational
@@ -182,7 +182,7 @@ external function changeOwnership(address payable _newOwner);
 > By declaring these functions as external, you're signaling that they are designed for external use, providing clarity in the contract's functionality. This optimization contributes to a cleaner and more efficient smart contract.
 
 #
-## A.4
+## A-5
 ### INFORMATIONAL ISSUE - FLOATING PRAGMA
 - Category: Informational
 - Severity: Informational
